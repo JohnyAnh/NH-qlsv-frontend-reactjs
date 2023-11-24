@@ -1,0 +1,24 @@
+.Card-Student {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* Đảm bảo các thẻ bắt đầu từ đầu trang */
+}
+
+.cardTitle {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.students {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.CardStudent:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

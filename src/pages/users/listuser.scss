@@ -1,0 +1,62 @@
+/* listuser.scss */
+
+/* Đảm bảo đây là một ví dụ, bạn cần điều chỉnh chiều rộng theo nhu cầu của mình */
+th {
+    width: 100px;
+    /* Chiều rộng của cột No. */
+}
+
+td[data-label="img"] {
+    width: 150px;
+    /* Chiều rộng của cột Image */
+}
+
+td[data-label="Name"] {
+    width: 200px;
+    /* Chiều rộng của cột User Name */
+}
+
+td[data-label="Role"] {
+    width: 150px;
+    /* Chiều rộng của cột Role */
+}
+
+td[data-label="Address"] {
+    width: 100px;
+    /* Chiều rộng của cột Status */
+}
+
+td[data-label="Action"] {
+    width: 150px;
+    /* Chiều rộng của cột Action */
+}
+
+/* listuser.scss */
+
+/* ... (các phần khác của file) */
+
+td[data-label="Action"] {
+    display: flex;
+    justify-content: center;
+    /* Canh giữa các phần tử theo chiều ngang */
+    align-items: center;
+    /* Canh giữa các phần tử theo chiều dọc */
+}
+
+td[data-label="Action"] button {
+    margin: 0 5px;
+    /* Khoảng cách giữa các nút (tuỳ chỉnh theo ý của bạn) */
+}
+
+td[data-label="Action"] {
+    display: flex;
+    justify-content: center;
+    /* Canh giữa các phần tử theo chiều ngang */
+    align-items: center;
+    /* Canh giữa các phần tử theo chiều dọc */
+}
+
+td[data-label="Action"] button {
+    margin: 0 5px;
+    /* Khoảng cách giữa các nút (tuỳ chỉnh theo ý của bạn) */
+}

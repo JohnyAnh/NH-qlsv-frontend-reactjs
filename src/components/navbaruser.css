@@ -1,0 +1,11 @@
+/* Trong file CSS chung hoặc component cấp cao */
+body {
+    font-family: 'Inter', sans-serif;
+    /* Thêm các thuộc tính font cụ thể nếu bạn muốn tùy chỉnh */
+}
+
+/* Hoặc nếu bạn muốn áp dụng font cho tất cả các thành phần */
+* {
+    font-family: 'Inter', sans-serif;
+    /* Thêm các thuộc tính font cụ thể nếu bạn muốn tùy chỉnh */
+}
